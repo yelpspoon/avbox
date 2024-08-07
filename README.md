@@ -2,6 +2,12 @@
 
 Based on linux.io and Docker KVCM
 
+### Github
+ - Use the same github action as chatai/avbox/etc
+ - DOCKER_USERNAME: yelpspoon
+   - email will cause issues in `docker tag`
+ - DOCKER_PASSWORD:
+
 ### Unraid Installation
  - Docker Repo Url
    - https://github.com/yelpspoon/avbox
