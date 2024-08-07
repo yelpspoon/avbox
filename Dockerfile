@@ -10,6 +10,5 @@ RUN wget -O reaper.tar.gz https://www.reaper.fm/files/7.x/reaper719_linux_x86_64
 
 WORKDIR reaper_linux_x86_64
 RUN ./install-reaper.sh --install "/opt" --integrate-desktop --usr-local-bin-symlink
-RUN ls /mnt
 
 EXPOSE 3000
